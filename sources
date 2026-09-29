@@ -1,0 +1,7 @@
+# tap path            source repo                   path in that repo
+Formula/zkit.rb       jonaprieto/zkit               Formula/zkit.rb
+Formula/aa.rb         jonaprieto/aa                 Formula/aa.rb
+Formula/granpa.rb     jonaprieto/granpa             Formula/granpa.rb
+Formula/oatp.rb       jonaprieto/oatp               Formula/oatp.rb
+Formula/xan-watch.rb  jonaprieto/xan-watch          Formula/xan-watch.rb
+Casks/papershelf.rb   jonaprieto/homebrew-papershelf Casks/papershelf.rb

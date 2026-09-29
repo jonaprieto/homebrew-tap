@@ -1,0 +1,22 @@
+name: sync
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [sources, sync]
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./sync
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SYNC_COMMIT: 1
