@@ -30,4 +30,9 @@ while read -r dest src path; do
   fi
 done < sources
 
-[ "$changed" = 1 ] || echo "everything up to date"
+if [ "$changed" = 0 ]; then
+  echo "everything up to date"
+elif [ "${SYNC_COMMIT:-0}" = 1 ]; then
+  # commits made with the workflow token do not trigger CI on their own
+  gh workflow run ci.yml --repo "$repo"
+fi
