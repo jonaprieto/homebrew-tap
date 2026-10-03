@@ -13,6 +13,7 @@ brew install jonaprieto/tap/folio
 
 | tool | what it is | install |
 |---|---|---|
+| [edgemark](https://github.com/jonaprieto/EdgeMark) | Side-panel Markdown notes app with GitHub and gist sync (my fork of EdgeMark) | `brew install --cask jonaprieto/tap/edgemark` |
 | [folio](https://github.com/jonaprieto/folio) | Find and download books and papers from the terminal or an AI agent | `brew install jonaprieto/tap/folio` |
 | [granpa](https://github.com/jonaprieto/granpa) | Book Gran Pared climbing slots from the shell | `brew install jonaprieto/tap/granpa` |
 | [oatp](https://github.com/jonaprieto/oatp) | Lean 4 ATP orchestration and TPTP tooling | `brew install jonaprieto/tap/oatp` |
