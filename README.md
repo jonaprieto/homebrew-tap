@@ -18,6 +18,7 @@ brew install jonaprieto/tap/folio
 | [granpa](https://github.com/jonaprieto/granpa) | Book Gran Pared climbing slots from the shell | `brew install jonaprieto/tap/granpa` |
 | [oatp](https://github.com/jonaprieto/oatp) | Lean 4 ATP orchestration and TPTP tooling | `brew install jonaprieto/tap/oatp` |
 | [papershelf](https://github.com/jonaprieto/papershelf) | macOS PDF reader and research library | `brew install --cask jonaprieto/tap/papershelf` |
+| [tess](https://github.com/jonaprieto/tess) | Keyboard-first tiling window manager for macOS that never hides a window | `brew install jonaprieto/tap/tess` |
 | [xan-watch](https://github.com/jonaprieto/xan-watch) | XAN price and vesting position in the macOS menu bar | `brew install jonaprieto/tap/xan-watch` |
 | [zkit](https://github.com/jonaprieto/zkit) | Numbered directory listing with sizes, ages and git status for zsh | `brew install jonaprieto/tap/zkit` |
 
