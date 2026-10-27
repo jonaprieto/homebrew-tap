@@ -1,6 +1,6 @@
 cask "papershelf" do
-  version "1.17.0"
-  sha256 "eb3d41d376ed7c9d3a4c44ba0ca0a0833fafa630dbd68abae86f39621292a844"
+  version "1.18.0"
+  sha256 "8a3607d56e33dac6beb601e8ee7afb7a196ff985a0ae3029ff2e56ab50c759f6"
 
   url "https://github.com/jonaprieto/papershelf/releases/download/v#{version}/PaperShelf-#{version}.dmg"
   name "PaperShelf"
