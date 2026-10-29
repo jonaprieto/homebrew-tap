@@ -1,12 +1,13 @@
 class Tess < Formula
   desc "Keyboard-first tiling window manager for macOS that never hides a window"
   homepage "https://github.com/jonaprieto/tess"
-  url "https://github.com/jonaprieto/tess/releases/download/v0.8.0/tess-0.8.0-macos-arm64.tar.gz"
-  sha256 "a09e301a2f917d663eeb83c87c5ac3bbc4c05ad8e3ba29999afbfdf8985e8248"
+  url "https://github.com/jonaprieto/tess/releases/download/v0.9.0/tess-0.9.0-macos-arm64.tar.gz"
+  sha256 "6109e810bbd1cd15b7e9a81c7de82cdadac3f2968331d91deab5971943ea8465"
   license "MIT"
 
   depends_on arch: :arm64
   depends_on :macos
+  depends_on "jonaprieto/tap/folio"
 
   def install
     bin.install "tess"
@@ -19,6 +20,9 @@ class Tess < Formula
         brew services start tess
       macOS asks once for Accessibility access. Browser history in the picker
       also needs Full Disk Access for #{opt_bin}/tess.
+      Check setup and open the newcomer walkthrough:
+        tess doctor
+        tess tutorial
       To open it from Finder or Spotlight (Settings, or tess again after Quit):
         cp -R #{opt_prefix}/tess.app /Applications/
     EOS
