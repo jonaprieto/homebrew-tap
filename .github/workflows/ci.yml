@@ -20,6 +20,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: Tap this checkout
         run: brew tap jonaprieto/tap "$PWD"
+      - name: Trust this tap
+        run: brew trust --tap jonaprieto/tap
       - name: Audit every formula and cask
         run: brew audit --strict --tap jonaprieto/tap
       - name: Style of the formulas
