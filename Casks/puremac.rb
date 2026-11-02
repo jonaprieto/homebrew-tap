@@ -13,12 +13,9 @@ cask "puremac" do
 
   app "PureMac.app"
 
-  # The build is ad-hoc signed and not notarized, so clear the quarantine flag. Refresh LaunchServices
-  # so the Dock/Launchpad icon updates immediately instead of showing a stale cached icon.
+  # The build is ad-hoc signed and not notarized, so clear the quarantine flag.
   postflight_steps do
     run "/usr/bin/xattr", args: ["-cr", "{{appdir}}/PureMac.app"]
-    run "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/Support/lsregister",
-        args: ["-f", "{{appdir}}/PureMac.app"]
   end
 
   caveats <<~EOS
