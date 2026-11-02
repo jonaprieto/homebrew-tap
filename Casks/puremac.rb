@@ -2,7 +2,7 @@ cask "puremac" do
   version "3.3.0"
   sha256 "10616b325092c5e714f47bb81cbe48a5bf1a8927ce265a7ecb18ec160a70dacb"
 
-  url "https://github.com/jonaprieto/PureMac/releases/download/v#{version}/PureMac-#{version}.zip"
+  url "https://github.com/jonaprieto/PureMac/releases/download/fork-#{version}/PureMac-#{version}.zip"
   name "PureMac"
   desc "macOS app manager and system cleaner (personal fork)"
   homepage "https://github.com/jonaprieto/PureMac"
