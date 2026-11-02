@@ -8,3 +8,4 @@ Formula/xan-watch.rb  jonaprieto/xan-watch          Formula/xan-watch.rb
 Casks/edgemark.rb   jonaprieto/EdgeMark            Casks/edgemark.rb
 Casks/papershelf.rb   jonaprieto/homebrew-papershelf Casks/papershelf.rb
 Casks/puremac.rb      jonaprieto/PureMac             Casks/puremac.rb
+Casks/strata.rb       jonaprieto/strata-files        Casks/strata.rb
