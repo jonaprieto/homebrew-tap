@@ -15,6 +15,7 @@ brew install jonaprieto/tap/folio
 |---|---|---|
 | [edgemark](https://github.com/jonaprieto/EdgeMark) | Side-panel Markdown notes app with GitHub and gist sync (my fork of EdgeMark) | `brew install --cask jonaprieto/tap/edgemark` |
 | [folio](https://github.com/jonaprieto/folio) | Find and download books and papers from the terminal or an AI agent | `brew install jonaprieto/tap/folio` |
+| [ghostty](https://github.com/jonaprieto/ghostty) | Terminal emulator with tabs in the quick terminal and a menu bar toggle (my fork of Ghostty) | `brew install --cask jonaprieto/tap/ghostty` |
 | [granpa](https://github.com/jonaprieto/granpa) | Book Gran Pared climbing slots from the shell | `brew install jonaprieto/tap/granpa` |
 | [oatp](https://github.com/jonaprieto/oatp) | Lean 4 ATP orchestration and TPTP tooling | `brew install jonaprieto/tap/oatp` |
 | [papershelf](https://github.com/jonaprieto/papershelf) | macOS PDF reader and research library | `brew install --cask jonaprieto/tap/papershelf` |
