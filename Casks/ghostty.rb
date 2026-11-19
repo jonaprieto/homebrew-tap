@@ -1,6 +1,6 @@
 cask "ghostty" do
-  version "1.4.1-1"
-  sha256 "8ad8be18721a3f221626923528d3500685315c01cf7aa1c8deb6f84c6235712d"
+  version "1.4.1-2"
+  sha256 "5a2eed8de1b97ffd536772e731b6107d2c46189d48664a110e261e7287d9dedc"
 
   url "https://github.com/jonaprieto/ghostty/releases/download/fork-#{version}/Ghostty-#{version}.zip"
   name "Ghostty"
