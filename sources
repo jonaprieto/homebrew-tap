@@ -3,7 +3,7 @@ Formula/zkit.rb       jonaprieto/zkit               Formula/zkit.rb
 Formula/folio.rb      jonaprieto/folio              Formula/folio.rb
 Formula/granpa.rb     jonaprieto/granpa             Formula/granpa.rb
 Formula/oatp.rb       jonaprieto/oatp               Formula/oatp.rb
-Formula/tess.rb       jonaprieto/tess               Formula/tess.rb
+Formula/tesela.rb     jonaprieto/tesela             Formula/tesela.rb
 Formula/xan-watch.rb  jonaprieto/xan-watch          Formula/xan-watch.rb
 Casks/edgemark.rb   jonaprieto/EdgeMark            Casks/edgemark.rb
 Casks/ghostty.rb      jonaprieto/ghostty             Casks/ghostty.rb

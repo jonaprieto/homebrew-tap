@@ -21,7 +21,7 @@ brew install jonaprieto/tap/folio
 | [papershelf](https://github.com/jonaprieto/papershelf) | macOS PDF reader and research library | `brew install --cask jonaprieto/tap/papershelf` |
 | [puremac](https://github.com/jonaprieto/PureMac) | macOS app manager and system cleaner (my fork of PureMac) | `brew install --cask jonaprieto/tap/puremac` |
 | [strata](https://github.com/jonaprieto/strata-files) | Fast keyboard-first file manager and Finder alternative (my fork of Strata Files) | `brew install --cask jonaprieto/tap/strata` |
-| [tess](https://github.com/jonaprieto/tess) | Keyboard-first tiling window manager for macOS that never hides a window | `brew install jonaprieto/tap/tess` |
+| [tesela](https://github.com/jonaprieto/tesela) | Keyboard-first tiling window manager for macOS that never hides a window | `brew install jonaprieto/tap/tesela` |
 | [xan-watch](https://github.com/jonaprieto/xan-watch) | XAN price and vesting position in the macOS menu bar | `brew install jonaprieto/tap/xan-watch` |
 | [zkit](https://github.com/jonaprieto/zkit) | Numbered directory listing with sizes, ages and git status for zsh | `brew install jonaprieto/tap/zkit` |
 
