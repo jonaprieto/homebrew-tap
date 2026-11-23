@@ -3,8 +3,8 @@ class Granpa < Formula
 
   desc "Book Gran Pared climbing slots from the shell"
   homepage "https://github.com/jonaprieto/granpa"
-  url "https://github.com/jonaprieto/granpa/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "c5754d072321ebec867486ed282913ba86770f61cde8feb8ffab4f9311190a0d"
+  url "https://github.com/jonaprieto/granpa/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "6a979851d5e8b4002cc5bd839f9b36288ce0836dc0af08186cca6c70e518fc71"
   license "MIT"
   head "https://github.com/jonaprieto/granpa.git", branch: "main"
 
